@@ -174,22 +174,16 @@ void displayPage6() {
 }
 
 void loop() {
-  //display.showNumberDec(TABLE_NUM_BIN, true);
   displayPage1();
   delay(6000);
-  //display.showNumberDec(TABLE_NUM_DEC, false);
   displayPage2();
   delay(6000);
-  //display.showNumberDec(TABLE_NUM_BIN, true);
   displayPage3();
   delay(6000);
-  //display.showNumberDec(TABLE_NUM_DEC, false);
   displayPage4();
   delay(6000);
-  //display.showNumberDec(TABLE_NUM_BIN, true);
   displayPage5();
   delay(6000);
-  //display.showNumberDec(TABLE_NUM_DEC, false);
   displayPage6();
   delay(6000);
 }
